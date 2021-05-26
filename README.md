@@ -1,5 +1,10 @@
+<style>body {text-align: justify}</style>
+
+
+***
 # NYT Bestseller Search & Quiz
 «NYT Bestseller Search & Quiz» is a project created in the context of the course “Programming with advanced computer languages” by Dr. Mario Silic in the spring semester 2021 at the University St. Gallen. The program allows users to search and filter the NYT bestsellers database and to test his knowledge in a quiz on bestseller books. The project used the Python programming language and dataset used was on the «New York Times Bestseller list» between 2010 and 2019, which is available on Kaggle for free: (https://www.kaggle.com/dhruvildave/new-york-times-best-sellers).
+***
 
 ## Table of contents
 * [General Information](#general-information)
@@ -17,8 +22,8 @@ Python Version: 3.8.5
 Jupyter Notebook: To install Jupyter Notebook, please refer to https://jupyter.org/install.
 	
 ## Install packages
-Libraries used: pandas numpy datetime os dateutil.relativedelta random 
-To install libraries in python, run the command “pip install "package name", for example see jupyter notebook script.
+Libraries used: `pandas` `numpy` `datetime` `os` `dateutil.relativedelta` `random` 
+To install libraries in python, run the command `pip install "package name"`, for example see jupyter notebook script.
 
 ## Data preparation
 In order to be able to use the datafile for our program, we made the following adjustments. We loaded the original date into a pandas dataframe and then deleted the columns “list_name_encoded”,  “list_name, rank”, “isbn13”,  “isbn10”,  “amazon_product_url”, as we do not need the data included here for our program.  Some lines in the original data included a comma so we decided to separate the columns with ‘;’ and replaced any ‘;’ included in the actual data (for more details on this, please refer to the respective notebook).
