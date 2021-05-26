@@ -1,6 +1,3 @@
-<style>body {text-align: justify}</style>
-
-
 ***
 # NYT Bestseller Search & Quiz
 «NYT Bestseller Search & Quiz» is a project created in the context of the course “Programming with advanced computer languages” by Dr. Mario Silic in the spring semester 2021 at the University St. Gallen. The program allows users to search and filter the NYT bestsellers database and to test his knowledge in a quiz on bestseller books. The project used the Python programming language and dataset used was on the «New York Times Bestseller list» between 2010 and 2019, which is available on Kaggle for free: (https://www.kaggle.com/dhruvildave/new-york-times-best-sellers).
