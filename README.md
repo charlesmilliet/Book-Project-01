@@ -72,7 +72,7 @@ Charles Milliet
 
 Jannis Braun
 
-Iris Cai
+Jinshi Cai
 
 Charlotte Mast
 
