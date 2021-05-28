@@ -28,7 +28,7 @@ To install libraries in python, run the command `pip install "package name"`, fo
 In order to be able to use the datafile for our program, we made the following adjustments. We loaded the original date into a pandas dataframe and then deleted the columns “list_name_encoded”, “list_name, rank”, “isbn13”, “isbn10”, “amazon_product_url”, as we do not need the data included here for our program. Some lines in the original data included a comma, so we decided to separate the columns with ‘;’ and replaced any ‘;’ included in the actual data (for more details on this, please refer to the seperate notebook).
 Following this, we have removed all duplicates in the data frame and sorted the rows by alphabetical order. Duplicates stem from the fact that books which have been many weeks on the NYT bestseller list will be listed on the data frame each time the book was published again on the NYT bestseller list. We keep the first release date and the maximal amount of weeks on the bestseller list for each duplicate. All other information is repeated so it does not matter which one is kept.
 The final dataset has six columns that are: “title”, “published_date”, “author”, “description”, “price”, and “week_on_list” and contains 6577 observations. The clean data frame is saved as a txt file separated by “;” called “NYTB_clean.csv”.
-For further details, check the notebook “raw_data_NYTB”.
+For further details, check the notebook “data_cleaning.ipynb”.
 
 ## Program Structure
 
